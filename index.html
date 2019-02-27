@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html style="background-color:black">
+<head>
+    <meta charset="UTF-8">
+    <title>GitTastic</title>
+    <link rel="reset" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">"Lions and tigers and bears, oh my!"</h1>
+      <p class="lead">This famous quote from the Wizard of Oz seem to fit best for this assignment. Please feel free to add buttons for all of your favourite animals then click each one to see amazingly funny Gif's. You can also click to animate each one and click again to stop this animation.
+        © Copyright Holland Gronau February, 2019
+      </p>
+    </div>
+  </div>
+<div id="button-pannel">
+<div id="animal-buttons"></div>
+<div id="Form">
+<form id="animalForm" class="float-left mt-5 mr-5">
+      <label for="animal-input">Add an animal</label>
+      <input type="text" id="animal-input">
+      <input id="add-animal" type="submit" value="submit" class="btn btn-success">
+  </form>
+</div>
+<div id="animals" class="mx-auto"></div>
+</div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/javascript/app.js"></script>
+</body>
+</html>
